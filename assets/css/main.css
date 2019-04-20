@@ -8,15 +8,6 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
-.star {
-	color: red; /* Make it red */
-	font-size: 100%; /* Make it twice as large */
- }
- .starHeader {
-	color: red; /* Make it red */
-	font-size: 200%; /* Make it twice as large */
- }
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2941,9 +2932,24 @@
 
 /* Banner */
 
+.star {
+	color: red; /* Make it red */
+	font-size: 100%; /* Make it twice as large */
+ }
+ .logoStar {
+	color: red; /* Make it red */
+	font-size: 400%; /* Make it twice as large */
+	padding-left:15px;
+	padding-right:15px;
+ }
+
 	#banner {
 		padding: 12em 0 10em 0;
-		background-image: url('../../images/SacatonArizona45.jpg');
+		background-image: 
+		linear-gradient(
+		  rgba(0, 0, 0, 0.5),
+		  rgba(0, 0, 0, 0.5)
+		), url('../../images/SacatonArizona45.jpg');
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
@@ -2953,18 +2959,17 @@
 	}
 
 		#banner h1 {
-			font-size: 3.5em;
+			font-size: 5.25em;
 			font-weight: bolder;
 			/*color: #5385c1;*/
 			color:white;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
-			text-shadow:
 		}
 
 		#banner p {
-			font-size: 1em;
+			font-size: 2em;
 			font-weight: bolder;
 			/*color: #5385c1;*/
 			color:white;
@@ -2976,6 +2981,9 @@
 			#banner {
 				background-attachment: scroll;
 			}
+			.logoStar{
+				font-size: 400%;
+			}
 
 		}
 
@@ -2984,6 +2992,9 @@
 			#banner {
 				padding: 10em 2em 8em 2em;
 			}
+			.logoStar{
+				font-size: 400%;
+			}
 
 		}
 
@@ -2991,6 +3002,9 @@
 
 			#banner {
 				background-attachment: scroll;
+			}
+			.logoStar{
+				font-size: 400%;
 			}
 
 		}
@@ -3009,6 +3023,9 @@
 					font-size: .9em;
 					color: #fff;
 				}
+				.logoStar{
+					font-size: 150%;
+				}
 
 		}
 
@@ -3020,6 +3037,9 @@
 
 			#banner p {
 				color: #fff;
+			}
+			.logoStar{
+				font-size: 100%;
 			}
 
 		}
